@@ -1,0 +1,248 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color: steelblue;
+}
+
+/* General */
+
+button{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input{
+    width: 40%;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+h5{
+    background-color: rgb(83, 255, 83);
+    border-radius: 5px;
+    padding: 6px;
+    text-align: center;
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+.rating{
+    color: gold;
+}
+
+.detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+ul{
+    list-style: none;
+}
+
+/*    Navigation Bar   */
+
+.navbar{
+    background-color: black;
+    position:sticky; top:0; z-index:50;
+    padding: 20px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 50px;
+}
+
+.accessaries{
+    display: flex;
+    gap: 20px;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+/* Sponsored tab */
+.contents{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 5%;
+}
+
+.sections{
+    display: flex;
+    padding: 1.5%;
+    margin-bottom: 50px;
+}
+
+.sponsored{
+    border-radius: 15px;
+    background-color: rgb(162, 165, 165);
+    border: 1px solid whitesmoke;
+    gap: 50px;
+    align-items: center;
+    height: 50vh;
+}
+
+.sponsored img{
+    height: 45vh;
+    border: 2px solid green;
+    border-radius: 20px;
+}
+
+
+
+.sponsored .detail{
+    gap: 10px;
+}
+
+.sponsored .price{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.sponsored .buttons{
+    display: flex;
+    gap: 50px;
+}
+
+.sponsored button{
+    background-color: tomato;
+    border: 1px solid whitesmoke;
+    padding: 10px;
+    width: 100%;
+}
+
+
+/* Best Sellers */
+
+.best-sellers{
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tabs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.games{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+}
+
+.game{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border: 1px solid white;
+    border-radius: 12px;
+    background-image: url(Gemini.png);
+    background-size: contain; 
+    height: 300px;
+}
+
+.game .detail{
+    background-color:rgb(1, 47, 85);
+    padding: 10px;
+    border-radius: 0px 0px 10px 12px;
+    gap: 10px;
+}
+
+.game .price{
+    display: flex;
+    justify-content: space-between;
+}
+
+.game button{
+    border: none;
+    padding: 5px 10px;
+    background-color: aquamarine;
+}
+
+.Email{
+    background-color: chocolate;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    gap: 15px;
+}
+
+.Email button{
+    border: none;
+    padding: 5px 10px;
+    background-color: aquamarine;   
+}
+
+.Email .detail{
+    display: flex;
+    gap: 10px;
+}
+
+.Email p{
+    font-size: 13px;
+}
+
+.Email .rating{
+    font-weight: bold;
+}
+
+footer{
+    border-top: 1px solid white;
+    padding: 1% 5%;
+}
+
+.rights{
+    margin: 5%;
+    border-top: 1px solid white;
+    text-align: center;
+}
+
+footer .detail{
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nexus{
+    width: 50%;
+}
+
+.store{
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
